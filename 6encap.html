@@ -1,0 +1,90 @@
+<html>
+ <head>
+  <title>ICT 3 and 4 PBE</title>
+   <link rel="stylesheet" href="9pbe_design.css">
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+ </head>
+ 
+ <body style="background-color:#C7C8CC;">
+  <div class="sidenav">
+   </br>
+    <a href="1Main_PBE.html">Homepage</a>
+    <a href="2about.html">About</a>
+    <a href="3method.html">Method</a>
+    <a href="4construct.html">Class Constructor</a>
+    <a href="5overload.html">Overload Method</a>
+    <a href="6encap.html">Encapsulation</a>
+    <a href="7inherit.html">Inheritance</a>
+    <a href="8poly.html">Polymorphism</a>
+  </div>
+
+  <div id="3method.html" class="margin"> 
+   <center class="margin2">
+    <img class="head" src="https://media.discordapp.net/attachments/1154655666808557602/1239953445272948766/ovl-removebg-preview.png?ex=6644cc22&is=66437aa2&hm=a9d2deb9cbf8779eee2a41318dc0371966573cf60cbfc120b7f1dbcd504595b1&=&format=webp&quality=lossless" height="700" width="1180" /> <br />
+            
+    <h1>Encapsulation? What is that?</h1>
+    <h3>Encapsulation in Java is a fundamental concept in object-oriented programming (OOP) that refers to the bundling 
+        of data and methods that operate on that data within a single unit, which is called a class in Java. Java 
+        Encapsulation is a way of hiding the implementation details of a class from outside access and only exposing a 
+        public interface that can be used to interact with the class.</h3>
+    <h3>In Java, encapsulation is achieved by declaring the instance variables of a class as private, which means they 
+        can only be accessed within the class. To allow outside access to the instance variables, public methods called 
+        getters and setters are defined, which are used to retrieve and modify the values of the instance variables, 
+        respectively.</h3>
+       
+    <h2>Here is an example of Encapsulation</h2>
+<!--S Y N T A X-->
+    <table class="border">
+     <tr>
+      <td>
+        public class Area {<br>
+        <span>private int width<br></span>
+        <span>private int length<br></span>
+        <br>
+
+        Area(int width, int length) {<br>
+        <span>this.width = width;<br></span>
+        <span>this.length = length;<br></span>
+        }<br>
+
+        public void getArea() {<br>
+        <span>int area = width * length;<br></span>
+        <span>System.out.println("The area is: " + area);<br></span>
+        }<br>
+       }
+      </td>
+     </tr>
+    </table>
+
+    <table class="border1">
+     <tr>
+      <td>
+       public class Main{<br>
+       <span>public static void main(String[] args) {<br></span>
+       <span>Area rectangle = new Area(8, 6);<br></span>
+       <span>rectangle.getArea();<br></span>
+       }<br>
+       }
+      </td>
+     </tr>
+    </table>
+
+    <table class="border2">
+     <tr>
+      <td>
+        <h2>Output:<br></h2>
+        The area is: 48
+      </td>
+     </tr>
+    </table>
+
+    <hr />
+    <h3>Encapsulation allows the internal state of an object to be hidden from external access. By declaring the data members of a class as private, they cannot be accessed directly from outside the class. Instead, access to these members is controlled through methods, enabling the class to maintain control over its data and ensuring its integrity.</h3>
+    <h3>Encapsulation enables fine-grained control over access to an object's members. By providing public methods to access and modify the object's state while keeping its data private, encapsulation ensures that the object's integrity is maintained and prevents unintended manipulation or corruption of its internal state.</h3>
+
+
+  </center>
+ </div>
+</body>
+
+</html>

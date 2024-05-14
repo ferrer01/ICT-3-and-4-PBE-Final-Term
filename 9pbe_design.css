@@ -1,0 +1,194 @@
+
+body {
+    background-color: #4f5b66;    
+}
+
+.font div {
+  font-family: monospace;
+}
+
+.sidenav {
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333C4A;
+    padding-top: 20px;
+    font-family: "space grotesk";
+   
+  }
+  
+  .sidenav a {
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #FFF6E0;
+    display: block;
+    transition:0.4s ease;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  .sidenav a:hover {
+    background-color: #61677A;
+    width: 120px;
+  }
+  
+  
+  .main {
+    margin-left: 120px; /* Same width as the sidebar */
+    padding: 50px;
+  }
+
+footer {
+     background-color: #4f5b66;
+     max-width: 100%;
+     height: 400px;
+     text-align: left;
+     padding: 5px;
+     color: white;
+     .wrap: span;
+     align-self:flex-end;
+}
+
+
+  a:link, a:visited {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.style {
+    margin-left: 900px;
+    text-decoration: none; 
+    font-size:60px;
+    color:black; 
+    margin-top:80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.coders {
+color:white;
+background-color:#4f5b66;
+line-height: 1em;
+margin-left: 150px;
+font-family: monospace;
+font-size: 20px;
+}
+
+
+.margin {
+   margin-left: 120px;
+}
+
+.margin h1 {
+  font-family: 'Verdana';
+
+}
+
+.margin h3 {
+   margin-right: 60px;
+   margin-left: 90px;
+   text-align: justify;
+}
+-------------CONSTRUCTOR--------------
+
+
+#canon {
+margin-left: 200px ;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#canon h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 120px;
+  font-size: 50px;
+  color: #FAF0E6;
+}
+#canon p {
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 500px;
+  margin-right: 80px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.font {
+  font-family: 'Courier New', Courier, monospace;
+  font
+}
+/*E N C A P S U L A T I O N*/
+
+.border {
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  padding-left: 20px;
+  padding-top: 10;
+  font-family: monospace;
+}
+
+.border1 {
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  padding-left: 20px;
+  padding-top: 10;
+  font-family: monospace;
+}
+
+.border2 {
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  padding-left: 20px;
+  padding-top: 10;
+  font-family: monospace;
+}
+
+.kim h4 {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+span {
+  margin-left: 20px;
+}
+
+/*about*/
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+/*About Java imgs*/
+.column img {
+   height: 45vh; 
+   width: 300px;
+   justify-content: space-between;
+   
+   top: -10%;
+   left: -5%;
+   bottom: 0;
+   transform: traslateX(-50%);
+   transition: bottom 3s, left 3s;
+}
+
+.column:hover .column img{
+  bottom: 40px;
+}
+
+.column:hover .column img{
+  left: 2%;
+}
